@@ -10,7 +10,7 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: "{{ PYTHON }} -m pip install . -vv"
   entry_points:
     - sciunit = sciunit.__main__:main
@@ -25,7 +25,7 @@ requirements:
     - quantities
     - pandas
     - ipython
-    - matplotlib
+    - matplotlib-base
     - bs4
     - lxml
     - nbconvert
