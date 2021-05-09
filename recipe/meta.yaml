@@ -21,21 +21,20 @@ requirements:
     - python >=3.6
     - pip
   run:
-    - git
-    - quantities
-    - pandas
-    - ipython
-    - matplotlib-base
     - bs4
-    - lxml
-    - nbconvert
-    - ipykernel
-    - nbformat
-    - gitpython
-    - cerberus >=1.2
-    - importlib-metadata
-    - jsonpickle
+    - cerberus>=1.2
     - deepdiff
+    - gitpython
+    - ipykernel
+    - ipython
+    - jsonpickle
+    - lxml
+    - matplotlib
+    - bconvert
+    - nbformat
+    - pandas>=0.18
+    - quantities>=0.12.1
+    - sty
     - python >=3.6
 
 test:
