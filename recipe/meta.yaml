@@ -35,6 +35,7 @@ requirements:
     - cerberus >=1.2
     - importlib-metadata
     - jsonpickle
+    - deepdiff
     - python >=3.6
 
 test:
