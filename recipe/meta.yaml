@@ -34,6 +34,7 @@ requirements:
     - gitpython
     - cerberus >=1.2
     - importlib-metadata
+    - jsonpickle
     - python >=3.6
 
 test:
