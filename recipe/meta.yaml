@@ -22,7 +22,7 @@ requirements:
     - pip
   run:
     - bs4
-    - cerberus>=1.2
+    - cerberus >=1.2
     - deepdiff
     - gitpython
     - ipykernel
@@ -32,8 +32,8 @@ requirements:
     - matplotlib
     - bconvert
     - nbformat
-    - pandas>=0.18
-    - quantities>=0.12.1
+    - pandas >=0.18
+    - quantities >=0.12.1
     - sty
     - python >=3.6
 
