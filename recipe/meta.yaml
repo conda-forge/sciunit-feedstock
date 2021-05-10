@@ -30,7 +30,7 @@ requirements:
     - jsonpickle
     - lxml
     - matplotlib
-    - bconvert
+    - nbconvert
     - nbformat
     - pandas >=0.18
     - quantities >=0.12.1
