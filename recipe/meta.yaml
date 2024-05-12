@@ -1,4 +1,4 @@
-{% set version = "0.2.3" %}
+{% set version = "0.2.8" %}
 
 package:
   name: sciunit
@@ -6,11 +6,11 @@ package:
 
 source:
   url: https://github.com/scidash/sciunit/archive/v{{ version }}.tar.gz
-  sha256: ec036b01497b593d36689f91c98a8519661ad42f71670e2b1d2b11bd051590b1
+  sha256: 8db5d7b0cfd44ef1ba9d12f8ad18cfadbf5f0baa28f0a100def3f3431a629a1f
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: "{{ PYTHON }} -m pip install . -vv"
   entry_points:
     - sciunit = sciunit.__main__:main
