@@ -10,7 +10,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 2
   script: "{{ PYTHON }} -m pip install . -vv"
   entry_points:
     - sciunit = sciunit.__main__:main
@@ -18,7 +18,7 @@ build:
 requirements:
   host:
     - setuptools
-    - python >=3.6
+    - python {{ python_min }}
     - pip
   run:
     - git
@@ -34,9 +34,11 @@ requirements:
     - gitpython
     - cerberus >=1.2
     - importlib-metadata
-    - python >=3.6
+    - python >={{ python_min }}
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - sciunit
     - sciunit.unit_test
